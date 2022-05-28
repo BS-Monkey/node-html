@@ -1,0 +1,62 @@
+<!-- index.html -->
+<!doctype html>
+<html>
+<head>
+    <title>ADD movie</title>
+    
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css"><!-- load bootstrap via CDN -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> <!-- load jquery via CDN -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <script src="js/movie_utils.js"></script>     <!-- load our javascript file -->
+
+</head>
+
+<body>
+    <div class="col-sm-6 col-sm-offset-3">
+
+        <h1>add new movie</h1>
+
+        <!-- OUR FORM -->
+        <form id="movie_form" name="movie_form" method="POST">
+
+            <!-- NAME -->
+            <div id="name-group" class="form-group">
+                <label for="name">Name/ID</label>
+                <input type="text" class="form-control" name="name" id="id" placeholder="write name/id here" required>
+                <!-- errors will go here -->
+            </div>
+            <!-- PICTURE -->
+            <div id="picture-group" class="form-group">
+                <label for="picture">Picture</label>
+                <input type="text" class="form-control" name="picture" id="picture" placeholder="write picture url here" required>
+                <!-- errors will go here -->
+            </div>
+            <!-- DIRECTOR -->
+            <div id="director-group" class="form-group">
+                <label for="director">Director</label>
+                <input type="text" class="form-control" name="director" id="director" placeholder="write director here" required>
+                <!-- errors will go here -->
+            </div>
+
+            <!-- DATE -->
+            <div id="date-group" class="form-group">
+                <label for="date">Date</label>
+                <input type="date" class="form-control" min="2021-05-09" name="date" id="date" placeholder="choose date here" required>
+                <!-- errors will go here -->
+            </div>
+
+            <!-- RATING -->
+            <div id="rating-group" class="form-group">
+                <label for="rating">Rating</label>
+                <input type="number" min="1" max=""5 class="form-control" name="rating" id="rating" placeholder="write rating here " required>
+                <!-- errors will go here -->
+            </div>
+
+            <button type="submit" class="btn btn-success">Submit <span class="fa fa-arrow-right"></span></button>
+
+        </form>
+
+    </div>
+</body>
+
+</html>

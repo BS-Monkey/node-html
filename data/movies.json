@@ -1,0 +1,45 @@
+{
+  "Movie-1": {
+    "id": "Movie-1",
+    "name": "Movie-1_name",
+    "picture": "Movie-1_picture",
+    "director": "Movie-1_director",
+    "date": "2022-05-04",
+    "rating": 5,
+    "isSeries": true,
+    "series_details": [
+      10,
+      12,
+      13,
+      11
+    ],
+    "actors": [
+      {
+        "name": "actor_1_name",
+        "picture": "actor_1_picture",
+        "site": "actor_1_site"
+      },
+      {
+        "name": "actor_2_name",
+        "picture": "actor_2_picture",
+        "site": "actor_2_site"
+      },
+      {
+        "name": "3",
+        "picture": "33"
+      },
+      {
+        "name": "4",
+        "picture": "44"
+      },
+      {
+        "name": "5",
+        "picture": "55",
+        "site": "555"
+      }
+    ],
+    "path": [
+      {}
+    ]
+  }
+}

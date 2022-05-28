@@ -1,0 +1,46 @@
+body{
+background-image: url("fly photo.jpg");
+background-repeat: no-repeat;
+height: 100%;
+background-position: center;
+background-size: cover;
+}
+button {
+    border: none;
+    color: #ec7749;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+#div2{
+    position: absolute;
+    left:80%;
+    top:10%;
+}
+
+#form1{
+    position: absolute;
+    bottom:0%;
+}
+
+.hid{
+    visibility: hidden;
+}
+
+.show{
+    visibility: show;
+}
+table {
+    border: solid black 1px;
+    border-spacing: 10px;
+
+}
+th, td{border:solid 1px black; padding-left:10px;}
+
+label{
+    color: #ec7749;
+}
+
